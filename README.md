@@ -1,9 +1,9 @@
 ```
 .
 ├── README.md
-├── scripts                                             Contains IaC-related scripts
-├── stacks                                              Contains all terraform deployments
-│   ├── aws                                             AWS MG
+├── scripts                                            Contains IaC-related scripts
+├── stacks                                             Contains all terraform deployments
+│   ├── aws                                            AWS MG
 │   │   └── account-1
 │   │       └── region-1
 │   │           └── backups
@@ -23,10 +23,10 @@
 │       │   │   │   └── storage
 │       │   │   ├── core-network                       Stack (Solution) #1
 │       │   │   │   ├── ecr                            - Unit #1
-│       │   │   │   │   ├── prd-centralus                - Deployment #1 (Environment + Region)
-│       │   │   │   │   ├── prd-eastus2                  - Deployment #2 (Environment + Region)
-│       │   │   │   │   ├── tst-centralus                - Deployment #3 (Environment + Region)
-│       │   │   │   │   └── tst-eastus2                  - Deployment #4 (Environment + Region)
+│       │   │   │   │   ├── prd-centralus               - Deployment #1 (Environment + Region)
+│       │   │   │   │   ├── prd-eastus2                 - Deployment #2 (Environment + Region)
+│       │   │   │   │   ├── tst-centralus               - Deployment #3 (Environment + Region)
+│       │   │   │   │   └── tst-eastus2                 - Deployment #4 (Environment + Region)
 │       │   │   │   ├── ecr-peering                    - Unit #2
 │       │   │   │   │   ├── prd-centralus               - Deployment #1 (Environment + Region)
 │       │   │   │   │   ├── prd-eastus2                 - Deployment #2 (Environment + Region)
